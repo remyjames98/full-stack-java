@@ -1,0 +1,17 @@
+public class iden{
+     public static void main(String args[])
+      
+             {System.out.println("identifers");
+        
+                int abc=20;
+                      System.out.println(abc);
+                int $123=100;
+                      System.out.println($123); 
+             A a1=new A();
+             System.out.println(a1.xyz); }}
+
+ class A{
+
+       int xyz=50;}
+
+
