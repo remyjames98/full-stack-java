@@ -1,0 +1,29 @@
+class abc{
+    
+   void disp1()
+
+    {System.out.println("hi");}
+   
+abc()
+ {System.out.println("i m good");}
+  
+  
+   }
+
+class xyz extends abc{
+   
+super();
+   void disp()
+{  System.out.println("how r u?");}
+ }
+
+class inhe{
+   public static void main(String args[])
+{
+    System.out.println("Inheritance");
+    xyz s = new xyz();
+     s.disp1(); 
+     s.disp();
+   }
+
+}
