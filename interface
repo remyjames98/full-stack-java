@@ -1,0 +1,37 @@
+interface RBI{
+    
+    void personal_loan();}
+
+  class ICIC implements RBI{
+  
+  public void personal_loan()
+{System.out.println("ICIC provides 10% rate on interest");}
+}
+
+class SIB implements RBI{
+  
+  public void personal_loan()
+{System.out.println("SIB provides 9% rate on interest");}
+}
+
+class HDFC implements RBI{
+  
+ public void personal_loan()
+{System.out.println("HDFC provides 12% rate on interest");}
+}
+
+class interfacedemo{
+ public static void main(String args[])
+   {RBI r = new ICIC();
+        r.personal_loan(); 
+ RBIs = new SIB();
+        s.personal_loan(); 
+
+    RBI h = new HDFC();
+        h.personal_loan(); 
+
+    
+    
+      }
+
+   }
