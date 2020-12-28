@@ -1,0 +1,26 @@
+class ifdemo{
+  
+     public static void main(String args[])
+{     
+
+   System.out.println("your gradeis");
+  int marks=93;
+   
+     if(marks<45)
+       {System.out.println("failed");}
+    else if(marks>45&&marks<55)
+       {System.out.println("secured D");}
+    else if(marks>55&& marks<65)
+       {System.out.println("secured c");}
+     else if(marks>65&&marks<75)
+       {System.out.println("Secured B");}
+     else if(marks>75&&marks<90)
+     {System.out.println("Secured A");}
+
+   else if(marks>90&&marks<=100)
+      {System.out.println("Secured O");}
+
+else {System.out.println("not found");}
+ 
+
+ }}
