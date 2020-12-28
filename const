@@ -1,0 +1,20 @@
+class abc{
+    int a;
+    int b;
+  abc(int x, int y)
+{
+  a=x; 
+b =y;
+  System.out.println("show:"+a "show:"+b);}
+
+}
+
+class const{
+
+      public static void main(String args[])
+
+{
+      System.out.println("constructors");
+
+     abc a3 = new abc(30,40);
+     }}
