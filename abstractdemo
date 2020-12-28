@@ -1,0 +1,36 @@
+abstract class RBI{
+    
+   abstract void personal_loan();}
+  class ICIC{
+  
+ void personal_loan()
+{System.out.println("ICIC provides 10% rate on interest");}
+}
+
+class SIB{
+  
+ void personal_loan()
+{System.out.println("SIB provides 9% rate on interest");}
+}
+
+class HDFC{
+  
+ void personal_loan()
+{System.out.println("HDFC provides 12% rate on interest");}
+}
+
+class abstractdemo{
+ public static void main(String args[])
+   {ICIC r = new ICIC();
+        r.personal_loan(); 
+SIB s = new SIB();
+        s.personal_loan(); 
+
+    HDFC h = new HDFC();
+        h.personal_loan(); 
+
+    
+    
+      }
+
+   }
