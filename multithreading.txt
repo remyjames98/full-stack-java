@@ -1,0 +1,53 @@
+package com;
+class Thread1 implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for(int i=1;i<=5;i++)
+		{System.out.println(i);
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		}
+	}
+	
+}
+class Thread2 implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		for(int i=5;i<13;i++) {
+			System.out.println(i);
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+			
+			
+		
+	}
+	
+}
+public class threadd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+Thread1 a1 = new Thread1();
+Thread t =new Thread(a1);
+ t.start();
+ Thread2 a2 = new Thread2();
+ Thread t1 = new Thread(a2);
+ t1.start();
+ 
+
+	}
+
+}
